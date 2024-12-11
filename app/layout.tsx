@@ -3,6 +3,10 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Header from "@/components/Header/Header";
 import Footer from "@/components/Footer/Footer";
+// deve importar o componente
+import Link from 'next/link'
+
+
 
 
 const geistSans = localFont({
@@ -30,9 +34,16 @@ export default function RootLayout({
     <html lang="pt">
       <body>
         <Header />
-        <main>{children}</main>
+        <main>
+          <nav>
+            <Link href="/produtos">Produtos</Link>
+            <Link href="/tecnologias">Tecnologias</Link>
+          </nav>
+          {children}
+        </main>
         <Footer />
       </body>
     </html>
   );
 }
+
