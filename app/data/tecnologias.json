@@ -1,0 +1,105 @@
+[
+    {
+      "title": "HTML",
+      "image": "/images/html-logo.png",
+      "description": "A base da web, utilizado para estruturar o conteúdo das páginas.",
+      "rating": {
+        "rate": 5,
+        "count": 1000
+      }
+    },
+    {
+      "title": "CSS",
+      "image": "/images/css-logo.png",
+      "description": "Estilização das páginas web, trazendo cor e design ao conteúdo.",
+      "rating": {
+        "rate": 5,
+        "count": 900
+      }
+    },
+    {
+      "title": "JavaScript",
+      "image": "/images/js-logo.png",
+      "description": "A linguagem de programação que traz interatividade às páginas.",
+      "rating": {
+        "rate": 5,
+        "count": 1200
+      }
+    },
+    {
+      "title": "JSON",
+      "image": "/images/json-logo.png",
+      "description": "Formato leve para troca de dados entre sistemas.",
+      "rating": {
+        "rate": 4.5,
+        "count": 800
+      }
+    },
+    {
+      "title": "API RESTful",
+      "image": "/images/api-logo.png",
+      "description": "Arquitetura para construção de serviços web.",
+      "rating": {
+        "rate": 5,
+        "count": 950
+      }
+    },
+    {
+      "title": "Swagger",
+      "image": "/images/swagger-logo.png",
+      "description": "Ferramenta para documentar e testar APIs RESTful.",
+      "rating": {
+        "rate": 4.8,
+        "count": 700
+      }
+    },
+    {
+      "title": "GitHub",
+      "image": "/images/github-logo.png",
+      "description": "Plataforma para hospedagem de código e colaboração.",
+      "rating": {
+        "rate": 5,
+        "count": 1000
+      }
+    },
+    {
+      "title": "Codespaces",
+      "image": "/images/codespaces-logo.png",
+      "description": "Ambientes de desenvolvimento prontos no navegador.",
+      "rating": {
+        "rate": 4.7,
+        "count": 600
+      }
+    },
+    {
+      "title": "GitHub Pages",
+      "image": "/images/pages-logo.png",
+      "description": "Hospedagem gratuita de sites diretamente de um repositório GitHub.",
+      "rating": {
+        "rate": 4.9,
+        "count": 850
+      }
+    },
+    {
+      "title": "React.js",
+      "image": "/images/react-logo.png",
+      "description": "Biblioteca JavaScript para construção de interfaces de usuário.",
+      "rating": {
+        "rate": 5,
+        "count": 1100
+      }
+    },
+    {
+      "title": "Next.js",
+      "image": "/images/next-logo.png",
+      "description": "Framework React para renderização e desenvolvimento web moderno.",
+      "rating": {
+        "rate": 5,
+        "count": 1000
+      }
+    },
+    {
+      "title": "Vercel",
+      "image": "/images/vercel-logo.png",
+      "description": "Plataforma para implantação de aplicações web com foco em
+   

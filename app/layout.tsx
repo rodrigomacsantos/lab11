@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import Header from "@/components/Header/Header";
-import Footer from "@/components/Footer/Footer";
+import Header from "@/app/components/Header/Header";
+import Footer from "@/app/components/Footer/Footer";
 // deve importar o componente
 import Link from 'next/link'
 
@@ -34,11 +34,12 @@ export default function RootLayout({
     <html lang="pt">
       <body>
         <Header />
-        <main>
-          <nav>
+        <nav>
             <Link href="/produtos">Produtos</Link>
             <Link href="/tecnologias">Tecnologias</Link>
           </nav>
+        <main>
+          
           {children}
         </main>
         <Footer />
